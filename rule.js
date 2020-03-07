@@ -1,5 +1,5 @@
 module.exports = {
-  quotes: [2, "single", "avoid-escape"],
+  quotes: [1, "single", "avoid-escape"],
   semi: ["error", "always"],
-  "no-console": "off"
+  "no-console": "on"
 };
