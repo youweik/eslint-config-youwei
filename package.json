@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-youwei",
+  "version": "1.0.0",
+  "description": "eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youweik/eslint-config-youwei.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "youwei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youweik/eslint-config-youwei/issues"
+  },
+  "homepage": "https://github.com/youweik/eslint-config-youwei#readme"
+}
