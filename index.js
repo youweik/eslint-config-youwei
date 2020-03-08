@@ -1,10 +1,8 @@
-const rules = require("./rule");
+const rules = require('./rule')
 
 module.exports = {
   root: true,
-
-  extends: ["standard"],
-
+  extends: ['standard'],
   env: {
     browser: true,
     node: true,
@@ -14,12 +12,12 @@ module.exports = {
   },
 
   parserOptions: {
-    parser: "babel-eslint"
+    parser: 'babel-eslint'
   },
 
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: "module",
+    sourceType: 'module',
     ecmaFeatures: {
       experimentalObjectRestSpread: true,
       jsx: true
@@ -27,4 +25,4 @@ module.exports = {
   },
 
   rules: rules
-};
+}
